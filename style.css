@@ -1,0 +1,75 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-image: url(./img/Happy\ Birthday.jfif);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: 50%;
+    background-position-y: -80%;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;   
+    width: 85%;
+    height: auto;
+    padding: 20px;       
+    border-radius: 20px;    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);    
+}
+
+.div-img-text{
+    display: flex;
+    flex-direction: row;    
+    align-items:center;
+    gap: 25px;
+    margin: 45px;
+}
+
+.div-text{
+    display: flex;
+    flex-direction: column;    
+    align-items:center;
+    width: 50%;
+    height:auto;
+    margin-top: -70px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 80%;
+    border-radius: 50%;
+    width: 30%;    
+    height: 30%;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+p {
+    color: #1d0780;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.texto-bajo-imagen{
+    margin-top: -20px;
+    margin-left: -700px;
+    margin-bottom: 25px;  
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-decoration:underline;
+}
